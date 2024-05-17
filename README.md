@@ -1,4 +1,6 @@
 # odin-recipes
-HTML project, at  theodinproject
-This is one of "theodinproject"
-# Project: Recipes
+## index.html
+links to recipes
+# recipes
+## recipes html
+three site with diffrent recipe
