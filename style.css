@@ -14,17 +14,21 @@ body {
 .head {
     display: flex;
     align-items: flex-start;
+    flex-wrap: wrap;
     flex-direction: row;
 }
 
 h1 {
-    font-size: 60px;
+    margin: 0 0;
+    font-size: 100px;
     font-weight: bold;
     -webkit-text-stroke: #000000 2px;
-    color:rgb(0, 132, 255);
+    text-shadow: 2px 2px black;
+    color:rgb(255, 195, 77);
 }
 
 img {
+    margin: 0 25px;
     height: 100px;
     width: 125px;
 }
@@ -48,6 +52,7 @@ img {
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
+    list-style-type: none;
 }
 /*end of div class .menu, ul .list */
 
