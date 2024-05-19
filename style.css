@@ -1,0 +1,64 @@
+*.menu
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* body css */
+body {
+    background-image: url("food.jpg");
+    background-size: auto;
+}
+/* end of body */
+
+.head {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    -webkit-text-stroke: #000000 2px;
+    color:rgb(0, 132, 255);
+}
+
+img {
+    height: 100px;
+    width: 125px;
+}
+
+
+
+/* div class .menu, ul class .list */
+.menu {
+    margin: 10% auto;
+    height: 300px;   
+    width: 300px;
+    background-color: #333;
+    color: antiquewhite;
+}
+
+.list {
+    height: 100%;
+    width: 100%;
+    padding-left: 0;    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+/*end of div class .menu, ul .list */
+
+/* a element */
+a {
+    color: aliceblue;
+    transition: all 1s;
+}
+
+a:hover {
+    color: rgb(0, 132, 255);
+    font-size: 20px;
+}
+/* end of a element */
